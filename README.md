@@ -9,9 +9,11 @@ Source:
 https://github.com/js-cookie/js-cookie
 
 DEMO
+
 http://djmassive.github.io/eucookielaw/
 
 INSTALLATION
+
 Please just insert those lines before end of body tag
 
     <link rel="stylesheet" href="dist/cookieww.min.css" type="text/css">
