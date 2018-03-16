@@ -6,8 +6,8 @@ Cookie Warning Window is pure javascript plugin that allows to inform website us
 It is designed to help you comply with the hideous EU Cookie Law.
 
 This plugins includes **jQuery Cookie Plugin v2.2.0** by **Klaus Hartl & Fagner Brack**
-Source:
-https://github.com/js-cookie/js-cookie
+
+Source: https://github.com/js-cookie/js-cookie
 
 DEMO
 
