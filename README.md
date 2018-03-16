@@ -18,6 +18,7 @@ Please just insert those lines before end of body tag
     <script src="dist/cookieww.min.js"></script>
 
 USAGE
+
     <script type="text/javascript">
     new CookieWW({
         text: 'Your text',
