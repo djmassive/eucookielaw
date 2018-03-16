@@ -1,22 +1,29 @@
-Cookie Warning Window - version 1.2
-Cookie Warning Window is jQuery plugin that give's u responsive popup message for Your website. This plugins includes jQuery Cookie Plugin v2.1.4 by Klaus Hartl & Fagner Brack (https://github.com/js-cookie/js-cookie)
+**Cookie Warning Window - version 2.1**
+Pure JS / SCSS Stylesheet / Lightweight - only ~2.8 kb
 
-Demo
-http://djmassive.github.io/jquery-cookieww/
+Cookie Warning Window is pure javascript plugin that allows to inform website users that You are using cookies.
+It is designed to help you comply with the hideous EU Cookie Law.
 
-Enabling on your site
-Please just insert those lines in your head tag
+This plugins includes **jQuery Cookie Plugin v2.2.0** by **Klaus Hartl & Fagner Brack**
+Source: [https://github.com/js-cookie/js-cookie]
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="dist/cookieww.min.css" type="text/css">
-    <script src="dist/cookieww.min.js"></script>
+DEMO
+http://djmassive.github.io/eucookielaw/
 
-How to change text ?
-We provide only one option, You can change it by adding this code
+INSTALLATION
+Please just insert those lines before end of body tag
 
-    $(document).ready(function() {
-        $(this).cmsciw({ text: 'Type your text' });
-    });
+    ""<link rel="stylesheet" href="dist/cookieww.min.css" type="text/css">
+    <script src="dist/cookieww.min.js"></script>""
+
+USAGE
+	""<script type="text/javascript">
+    	new CookieWW({
+        	text: 'Your text',
+			text_btn: 'Your BTN text',
+			expire: 7 // in days (default 7 days)
+		});
+	</script>""
 
 Enjoy !
 This plugin is released under the MIT license.
