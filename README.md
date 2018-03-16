@@ -1,4 +1,5 @@
 **Cookie Warning Window - version 2.1**
+
 Pure JS / SCSS Stylesheet / Lightweight - only ~2.8 kb
 
 Cookie Warning Window is pure javascript plugin that allows to inform website users that You are using cookies.
