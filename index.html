@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CookieWW Responsive CSS3 - Cookie Warning Window</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	  <div class="container">
+	  <h1>Cookie Warning Window - version 2.1<br/><small>Pure JS / SCSS Stylesheet / Lightweight - only ~2.8 kb</small></h1>
+	  <br/>
+	  <p class="lead">
+	    Cookie Warning Window is pure javascript plugin that allows to inform website users that You are using cookies.<br/>
+	    It is designed to help you comply with the hideous EU Cookie Law.<br/><br/>
+	    This plugins includes <b>jQuery Cookie Plugin v2.2.0</b> by <b>Klaus Hartl & Fagner Brack</b><br/>
+	    <small>Source: <a href="https://github.com/js-cookie/js-cookie" target="_blank">https://github.com/js-cookie/js-cookie</a></small>
+		</p>
+		<br/>	
+		<h2>Installation</h2>
+		<br/>
+		<p class="lead">Please just insert those lines before end of <code>body</code> tag</p>
+	    <blockquote class="well">
+			&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;dist/cookieww.min.css&#x22; type=&#x22;text/css&#x22;&#x3E;<br/>
+			&#x3C;script src=&#x22;dist/cookieww.min.js&#x22;&#x3E;&#x3C;/script&#x3E;<br/>
+	    </blockquote>
+
+		<h2>How to change text and button label ?</h2>
+		<br/>
+		<!--<p class="lead">You can translate text using data attributes</p>
+		<blockquote class="well">
+			&#x3C;script id=&#x22;cookieww_config&#x22; data-text=&#x22;Type Your Text&#x22; data-text-btn=&#x22;Button TEXT&#x22; data-expire=&#x22;When Expires in days&#x22; src=&#x22;dist/cookieww.min.js&#x22;&#x3E;&#x3C;/script&#x3E;<br/>
+		</blockquote>
+		//-->
+		<p class="lead">Just run constructor class</p>
+		<blockquote class="well">
+			&#x3C;script type="text/javascript"&#x3E;<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;new CookieWW({<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text: 'Your text',<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text_btn: 'Your BTN text',<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expire: 7 // in days (default 7 days)<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;});<br/>
+			&#x3C;/script&#x3E;
+		</blockquote>
+		
+		<h2>Enjoy !</h2>
+		<br/>
+		<p class="lead">This plugin is released under the MIT license.</p>
+		<p class="lead">Author: Grzegorz Miskiewicz<br/>Last Edit: 2018-03-16</p>
+	  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="src/cookieww.css" type="text/css">
+    <script src="src/cookieww.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
