@@ -29,4 +29,5 @@ USAGE
 
 Enjoy !
 This plugin is released under the MIT license.
+
 Author: Grzegorz Miskiewicz
